@@ -74,6 +74,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   console.log(array);
   return array;
 }
+sumAndMultiply(4, 7, 5);
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
 testSumAndMultiply(4,7,5);
