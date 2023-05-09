@@ -64,7 +64,7 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   let prod2 = multiply(prod1, c);
   let sumStr = `the sum of ${a}, ${b}, and ${c} is ${sum2}.`;
   let prodStr = `the product of ${a}, ${b}, and ${c} is ${prod2}.`;
-  const array = [sum2, prod2, sumStr,prodStr];
+  const array = [sum2, prod2, sumStr, prodStr];
 
   return array;
 }
