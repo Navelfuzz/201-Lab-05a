@@ -11,11 +11,11 @@ function below and check the console to see if the test passes.*/
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-  const num1 = a;
-  const num2 = b;
-  const sum = num1 + num2;
-  console.log('The sum of ' + num1 + ' and ' + num2 + ' is: ' + sum);
- }
+  let mySum = a + b;
+  let myStr = `The sum of ${a} and ${b} is ${mySum}.`;
+
+  return [mySum, myStr];
+}
 
 
 // Here is the test for sum(); uncomment it to run it
