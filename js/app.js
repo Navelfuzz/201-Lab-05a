@@ -125,7 +125,7 @@ function multiplyArray(multArr) { //eslint-disable-line
   let a = multArr[0];
   let b = multArr[1];
   let c = multArr[2];
-  product(sumArr[0], sumArr[1])[0];
+  product(multArr[0], multArr[1])[0];
 
   let prod1 = product(a, b)[0];
   let prod2 = product(prod1, c)[0];
