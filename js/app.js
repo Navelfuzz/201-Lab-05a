@@ -59,11 +59,17 @@ Test this function by hand in the console to get it working, and when you think 
 // Write your code here
 function sumAndMultiply(a, b, c) { //eslint-disable-line
   let sum1 = sum(a, b);
+  console.log(sum);
   let sum2 = sum(sum1, c);
+  console.log(sum2);
   let prod1 = multiply(a, b);
+  console.log(prod1);
   let prod2 = multiply(prod1, c);
+  console.log(prod2);
   let sumStr = `the sum of ${a}, ${b}, and ${c} is ${sum2}.`;
+  console.log(sumStr);
   let prodStr = `the product of ${a}, ${b}, and ${c} is ${prod2}.`;
+  console.log(prodStr);
   const array = [sum2, prod2, sumStr, prodStr];
   console.log(array);
   return array;
