@@ -62,8 +62,8 @@ function sumAndMultiply(a, b, c) { //eslint-disable-line
   let sum2 = sum(sum1, c)[0];
   let prod1 = multiply(a, b)[0];
   let prod2 = multiply(prod1, c)[0];
-  let sumStr = `the sum of ${a}, ${b}, and ${c} is ${sum2}.`;
-  let prodStr = `the product of ${a}, ${b}, and ${c} is ${prod2}.`;
+  let sumStr = `${a} and ${b} and ${c} sum to ${sum2}.`;
+  let prodStr = `the product of ${a} and ${b} and ${c} is ${prod2}.`;
   
   return [sum2, prod2, sumStr, prodStr];
 }
