@@ -115,13 +115,24 @@ Write a function called multiplyArray() that takes an array of numbers as its ar
 
 "The numbers 2,3,4 have a product of 24."
 
-IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To do multiplication, use your multiply() function that you've already created. You're going to have to be resourceful to figure out how to do this. This function should handle an array containing three elements. However, you may continue to use the + operator for string concatenation.
+IMPORTANT DETAIL: You may not use the arithmetic operator * in this function. To do multiplication, use your multiply() function that you've already created. 
+You're going to have to be resourceful to figure out how to do this. This function should handle an array containing three elements. However, you may continue to use the + operator for string concatenation.
 
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiplyArray() function and see if the test passes.*/
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
+  let a = multArr[0];
+  let b = multArr[1];
+  let c = multArr[2];
+  product(sumArr[0], sumArr[1])[0];
 
+  let prod1 = product(a, b)[0];
+  let prod2 = product(prod1, c)[0];
+
+  let str = `The numbers ${a},${b},${c} have a product of ${prod2}.`
+
+  return [prod2, str];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
